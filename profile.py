@@ -43,7 +43,7 @@ pc.defineParameter("dataset", "Your dataset URN",
 
 pc.defineParameter("osImage", "Select OS image",
                    portal.ParameterType.IMAGE,
-                   imageList[2], imageList)
+                   imageList[1], imageList)
 
 # Always need this when using parameters
 params = pc.bindParameters()
