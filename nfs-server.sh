@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# Setup a simple FreeBSD NFS server on /nfs
+# Setup a simple NFS server exporting /nfs
 #
 # This script is derived from Jonathan Ellithorpe's Cloudlab profile at
 # https://github.com/jdellithorpe/cloudlab-generic-profile. Thanks!
