@@ -1,2 +1,2 @@
 # nfs-dataset
-Demonstration of a persistent NFS server on Cloudlab
+Demonstration of a persistent NFS server and multiple clients on Cloudlab

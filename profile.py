@@ -22,10 +22,13 @@ request = pc.makeRequestRSpec()
 
 # Only Ubuntu images supported.
 imageList = [
+    ('urn:publicid:IDN+emulab.net+image+emulab-ops//UBUNTU24-64-STD', 'UBUNTU 24.04'),
+    ('urn:publicid:IDN+emulab.net+image+emulab-ops//UBUNTU22-64-STD', 'UBUNTU 22.04'),
     ('urn:publicid:IDN+emulab.net+image+emulab-ops//UBUNTU20-64-STD', 'UBUNTU 20.04'),
     ('urn:publicid:IDN+emulab.net+image+emulab-ops//UBUNTU18-64-STD', 'UBUNTU 18.04'),
-    ('urn:publicid:IDN+emulab.net+image+emulab-ops//UBUNTU16-64-STD', 'UBUNTU 16.04'),
-    ('urn:publicid:IDN+emulab.net+image+emulab-ops//CENTOS7-64-STD', 'CENTOS 7'),
+    ('urn:publicid:IDN+emulab.net+image+emulab-ops//CENTOS9S-64-STD', 'CENTOS Stream 9'),
+    ('urn:publicid:IDN+emulab.net+image+emulab-ops//FBSD135-64-STD', 'FreeBSD 13.5'),
+    ('urn:publicid:IDN+emulab.net+image+emulab-ops//FBSD142-64-STD', 'FreeBSD 14.2'),
 ]
 
 # Do not change these unless you change the setup scripts too.
